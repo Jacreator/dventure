@@ -1,0 +1,428 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"conta",
+				"container"
+			],
+			[
+				"ment",
+				"menu-item"
+			],
+			[
+				"cate",
+				"category_id"
+			],
+			[
+				"category",
+				"category_id"
+			],
+			[
+				"cat",
+				"category_id"
+			],
+			[
+				"category_",
+				"category_product"
+			],
+			[
+				"C",
+				"CategoryModle"
+			],
+			[
+				"Trans",
+				"TransactionModel〔namespace〕"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"mt",
+				"mt_rand"
+			],
+			[
+				"Ca",
+				"$CategoryQuantity〔variable〕"
+			],
+			[
+				"use",
+				"$userQuantity〔variable〕"
+			],
+			[
+				"rand",
+				"randomElement"
+			],
+			[
+				"Un",
+				"UNAVILABLE_PRODUCT〔constant〕"
+			],
+			[
+				"ver",
+				"verified"
+			],
+			[
+				"fa",
+				"faker"
+			],
+			[
+				"prod",
+				"product_id"
+			],
+			[
+				"n",
+				"nullable"
+			],
+			[
+				"U",
+				"User"
+			],
+			[
+				"S",
+				"Support〔namespace〕"
+			],
+			[
+				"belo",
+				"belongsTo〔function〕"
+			],
+			[
+				"class",
+				"class"
+			],
+			[
+				"t",
+				"TransactionModel〔class〕"
+			],
+			[
+				"veri",
+				"verification_token"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 21372,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project.php",
+			"settings":
+			{
+				"buffer_size": 8001,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/custom-style.css",
+			"settings":
+			{
+				"buffer_size": 23790,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Select All"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Severs/Xamp/htdocs/kit",
+		"/C/Severs/Xamp/htdocs/kit/assets"
+	],
+	"file_history":
+	[
+		"/C/Program Files/Sublime x64/Data/Packages/User/42-headers.sublime-settings",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/User.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/categoryProductModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_28_090501_category_product_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_28_064408_create_category_product_models_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_28_085616_category_product_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Model/categoryProductModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_27_154823_category_product_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/CategoryModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/ProductModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/TransactionModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_27_082511_create_category_models_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_27_082645_create_transaction_models_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_27_082625_create_product_models_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/factories/UserFactory.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/SellerModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/BuyerModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Providers/AppServiceProvider.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/.env",
+		"/C/Program Files/Sublime x64/Data/Packages/User/PHP Companion.sublime-settings",
+		"/C/Program Files/Sublime x64/Data/Packages/PHP Companion/PHP Companion.sublime-settings"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"banner-bg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5712,
+								5712
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2316.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "project.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3367,
+								3367
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/custom-style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13993,
+								13993
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12223.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 276.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "kit.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

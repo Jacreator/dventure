@@ -116,9 +116,9 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                             <img src="assets/images/data_analytics.png" alt="">
                             <h4>Provide Security</h4>
                             <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
-                            <a href="#testimonials" class="main-button">
+                            <!-- <a href="#testimonials" class="main-button">
                                 Read More
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -130,9 +130,9 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                             <img src="assets/images/web_developer.png" alt="">
                             <h4>Teach Security</h4>
                             <p >Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
-                            <a href="#testimonials" class="main-button">
+                            <!-- <a href="#testimonials" class="main-button">
                                 Discover More
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -144,9 +144,9 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                             <img src="assets/images/mobile_application.png" alt="">
                             <h4>Provide Health Tools</h4>
                             <p >Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
-                            <a href="#testimonials" class="main-button">
+                            <!-- <a href="#testimonials" class="main-button">
                                 More Detail
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>

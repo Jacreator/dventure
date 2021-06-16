@@ -94,7 +94,7 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                     <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
                         data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                         <h1>Dventure is all about <em>Security</em> and <em>Health</em></h1>
-                        <p>K<span style="color:red !important;">i</span>t landing page more can still br writen here </p> 
+                        <p>about us will go here landing page more can still br writen here </p> 
                         <a href="#appointment" class="main-button-slider">Book An Appointment</a>
                     </div>
                 </div>

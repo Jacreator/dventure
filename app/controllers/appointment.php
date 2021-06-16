@@ -1,37 +1,38 @@
 <?php
 	// table name
-	$tableName = "project";
-	if (isset($_POST['project'])) {
+	$tableName = "appointment";
+	if (isset($_POST['meet'])) {
+
 
 		// removing the button variable
-		unset($_POST['project']);
+		unset($_POST['meet']);
 
 		// post variable to local variable
 		$username = $_POST['name'];
 	    $emailAddress = $_POST['email'];
 	    $phoneNumber = $_POST['phoneNumber']; 
-	    $budget = $_POST['budget'];
-	    $duration = $_POST['months'];
-	    $app = $_POST['app'];
+	    $purpose = $_POST['purpose'];
 	    $aboutProject = $_POST['message'];
 
 	    $data=[
-	    	'full_name'=>$username,
+	    	'name'=>$username,
 	    	'email' => $emailAddress,
 	    	'phone_number'=> $phoneNumber,
-	    	'budget' => $budget,
-	    	'months' => $duration,
-	    	'app' => $app,
-	    	'message' => $aboutProject
+	    	'purpose' => $purpose,
+	    	'description' => $aboutProject
 	    ];
 
 	    // insert new information to database
 	    $userId = create($tableName, $data);
 	    
 	    // make the user_id with id and name
-	    $unqiueId = 
+	    $unqiueId = "app_". $userId."_".date("d")."_". time();
 
 	    // update the user_id field
+	    $data = [
+	    	'user_id' => $unqiueId
+	    ];
+	     $updated = update($tableName, $userId, $data);
 	     
 		// give feedback
 		feedback($emailAddress, $username);
@@ -42,12 +43,13 @@
 		$body = "From: " . $username. " \r\n";
 		$body .= "Email: ". $emailAddress. " \r\n";
 		$body .= "Phone Number: ". $phoneNumber . " \r\n";
-		$body .= "Messgage: wants a ". $app . " that can do " . $aboutProject. " for " . $budget. " amount and for the duration of". $duration ." month(s)";
+		$body .= "User ID" . $unqiueId . " \r\n";
+		$body .= "Messgage: wants to an appointment";
 
 		// send the mail 
 		mail($to, $subject, $body);
 
 		// back to index page
-		redirect("index.php?projectRes=$username");
+		redirect("index.php?appointmentRes=$username");
 	}
 ?>

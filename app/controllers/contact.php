@@ -16,7 +16,7 @@ if (isset($_POST['contact'])) {
 
     // prepare mail
     $to = "jambone.james82@gmail.com";
-    $subject = "Contact Form Kit";
+    $subject = "Contact Form Dventures";
     $body = "From: ".$name." with email Address as " .$emailAddress . "\r\n";
     $body .= "Said: ". $message;
 
@@ -31,14 +31,14 @@ if (isset($_POST['contact'])) {
 function feedback($emailAddress, $name){
 	$to = $emailAddress;
 	$subject = "Reply";
-	$body = "Thank you ".$name." for reaching out to us @ Kit \r\n";
+	$body = "Thank you ".$name." for reaching out to us @ Dventures \r\n";
 	$body .= "Your Information have been recieved with thanks \r\n";
 	$body .= "we sure will get back to you shortly. \r\n";
 
 	$body .= "\r\n";
 	$body .= "\r\n";
 	$body .= "Thank You, ". $name . "\r\n";
-	$body .= "Kit Team";
+	$body .= "Dventures Team";
 
 	// sending mail
 	mail($to, $subject, $body);

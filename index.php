@@ -1,7 +1,7 @@
 <?php
 include("path.php");
 include(ROOT_PATH . "/app/controllers/contact.php");
-include(ROOT_PATH . "/app/controllers/project.php");
+include(ROOT_PATH . "/app/controllers/appointment.php");
 ?>
 
 <!DOCTYPE html>
@@ -16,12 +16,7 @@ include(ROOT_PATH . "/app/controllers/project.php");
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel='icon' href='assets/images/kit.ico' type='image/x-icon'/ >
 
-    <title>Kit</title>
-<!--
-
-Lava Landing Page
-
--->
+    <title>Dventure</title>
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -56,7 +51,7 @@ Lava Landing Page
                         <!-- ***** Logo Start ***** -->
                         <a href="index.php" class="logo">
                             <!-- <img src="assets/images/kit32.png"> -->
-                            <span style="color: green !important">K</span><span style="color: red !important">i</span><span style="color: green !important">T</span>
+                            <span>DVenture</span>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -75,7 +70,7 @@ Lava Landing Page
                                 </ul>
                             </li> -->
                             <li class="scroll-to-section"><a href="#contact-us" class="menu-item">Contact Us</a></li>
-                            <li class="pull-right scroll-to-section"><a href="#project">START A PROJECT</a></li>
+                            <li class="pull-right scroll-to-section"><a href="#appointment">Book An Appointment</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -100,7 +95,7 @@ Lava Landing Page
                         data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                         <h1>Simple App that we <em>CREATE</em></h1>
                         <p>K<span style="color:red !important;">i</span>t landing page more can still br writen here </p> 
-                        <a href="project.php" class="main-button-slider">START A PROJECT</a>
+                        <a href="#appointment" class="main-button-slider">Book An Appointment</a>
                     </div>
                 </div>
             </div>
@@ -119,7 +114,7 @@ Lava Landing Page
                         <div class="features-icon">
                             <h2>01</h2>
                             <img src="assets/images/data_analytics.png" alt="">
-                            <h4>Data Analysis</h4>
+                            <h4>Provide Security</h4>
                             <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
                             <a href="#testimonials" class="main-button">
                                 Read More
@@ -133,7 +128,7 @@ Lava Landing Page
                         <div class="features-icon">
                             <h2>02</h2>
                             <img src="assets/images/web_developer.png" alt="">
-                            <h4>Web Development</h4>
+                            <h4>Teach Security</h4>
                             <p >Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
                             <a href="#testimonials" class="main-button">
                                 Discover More
@@ -147,7 +142,7 @@ Lava Landing Page
                         <div class="features-icon">
                             <h2>03</h2>
                             <img src="assets/images/mobile_application.png" alt="">
-                            <h4>Mobile Application</h4>
+                            <h4>Provide Health Tools</h4>
                             <p >Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
                             <a href="#testimonials" class="main-button">
                                 More Detail
@@ -297,12 +292,12 @@ Lava Landing Page
     <div class="left-image-decor"></div>
 
     <!-- ***** Features Big Item Start ***** -->
-    <section class="section" id="project" style="padding-top: 100px">
+    <section class="section" id="appointment" style="padding-top: 100px">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="center-heading">
-                        <h2>Start A Project <em>With Us</em></h2>
+                        <h2>Book An Appointment <em>With Us</em></h2>
                         <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio.
                             Donec vitae magna ornare, pellentesque ex vitae, aliquet urna.</p>
                     </div>
@@ -314,8 +309,8 @@ Lava Landing Page
                 <div class="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
                     <!-- ***** Contact Form Start ***** -->
                     <div class="col-lg-12 col-md-12 col-sm-12">
-                        <?php if (isset($_GET['projectRes'])): ?>
-                            <h3>Thank You <?php echo ucwords($_GET['projectRes']); ?><br></h3>
+                        <?php if (isset($_GET['appointmentRes'])): ?>
+                            <h3>Thank You <?php echo ucwords($_GET['appointmentRes']); ?><br></h3>
                             <p>Check Your Mail for further communication.</p>
                         <?php else: ?>
                         <div class="contact-form">
@@ -339,21 +334,11 @@ Lava Landing Page
                                                 style="background-color: rgba(250,250,250,0.3);">
                                         </fieldset>
                                     </div>
+                                   
+                                    
                                     <div class="col-md-6 col-sm-12">
                                         <fieldset>
-                                            <input name="budget" type="text" id="email" placeholder="What is your budget"
-                                                required="" style="background-color: rgba(250,250,250,0.3);">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input name="months" type="text" id="name" placeholder="Duration in months" required=""
-                                                style="background-color: rgba(250,250,250,0.3);">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input name="app" type="text" id="email" placeholder="What type of App"
+                                            <input name="purpose" type="text" id="name" placeholder="Appointment Purpose"
                                                 required="" style="background-color: rgba(250,250,250,0.3);">
                                         </fieldset>
                                     </div>
@@ -365,7 +350,7 @@ Lava Landing Page
                                     </div>
                                     <div class="col-lg-12">
                                         <fieldset>
-                                            <button type="submit" id="form-submit" name="project" class="main-button">Get An Invite</button>
+                                            <button type="submit" id="form-submit" name="meet" class="main-button">Get An Invite</button>
                                         </fieldset>
                                     </div>
                                 </div>
@@ -391,7 +376,7 @@ Lava Landing Page
                         <div class="contact-form">
                             <?php if (isset($_GET['contactRes'])): ?>
                                 <h3>Thank You <?php echo ucwords($_GET['contactRes']); ?><br></h3>
-                            <p>For Reaching us @kit.</p>
+                            <p>For Reaching us @Dventures.</p>
                             <?php else: ?>
                                 <form id="contact" method="post">
                                     <div class="row">
@@ -426,7 +411,7 @@ Lava Landing Page
                     </div>
                     <!-- ***** Contact Form End ***** -->
                     <div class="right-content col-lg-6 col-md-12 col-sm-12">
-                        <h2>More About <em>Kit</em></h2>
+                        <h2>More About <em>Dventure</em></h2>
                         <p>Phasellus dapibus urna vel lacus accumsan, iaculis eleifend leo auctor. Duis at finibus odio.
                             Vivamus ut pharetra arcu, in porta metus. Suspendisse blandit pulvinar ligula ut elementum.
                             <br><br>If you need this contact form to send email to your inbox, you may follow our <a

@@ -32,13 +32,7 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
 <body>
 
     <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+    <?php include('pageloader.php')?>
     <!-- ***** Preloader End ***** -->
 
 
@@ -114,8 +108,9 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                         <div class="features-icon">
                             <h2>01</h2>
                             <img src="assets/images/data_analytics.png" alt="">
-                            <h4>Provide Security</h4>
-                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+                            <h4>Security Services</h4>
+                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, 
+                            nec consectetur diam.</p>
                             <!-- <a href="#testimonials" class="main-button">
                                 Read More
                             </a> -->
@@ -128,8 +123,9 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                         <div class="features-icon">
                             <h2>02</h2>
                             <img src="assets/images/web_developer.png" alt="">
-                            <h4>Teach Security</h4>
-                            <p >Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+                            <h4>Security Training</h4>
+                            <p >Curabitur pulvinar vel odio sed sagittis. 
+                            Nam maximus ex diam, nec consectetur diam.</p>
                             <!-- <a href="#testimonials" class="main-button">
                                 Discover More
                             </a> -->
@@ -142,8 +138,9 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                         <div class="features-icon">
                             <h2>03</h2>
                             <img src="assets/images/mobile_application.png" alt="">
-                            <h4>Provide Health Tools</h4>
-                            <p >Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+                            <h4>Health Services</h4>
+                            <p >Curabitur pulvinar vel odio sed sagittis. 
+                            Nam maximus ex diam, nec consectetur diam.</p>
                             <!-- <a href="#testimonials" class="main-button">
                                 More Detail
                             </a> -->
@@ -163,28 +160,30 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
             <div class="row">
                 <div class="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big"
                     data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <img src="assets/images/kit512.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                    <!-- <img src="" class="rounded img-fluid d-block mx-auto" alt="App"> -->
                 </div>
                 <div class="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
                     <ul>
                         <li data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
                             <img src="assets/images/about-icon-01.png" alt="">
                             <div class="text">
-                                <h4>Vestibulum pulvinar rhoncus</h4>
-                                <p>about the area is going here.</p>
+                                <h4>SIA Approved Security Training</h4>
+                                <p>A well organised course ranging from Door Supervision to CCTV Training.
+                                And over the years we have found gaps and have learned excellently
+                                 how to close them. </p>
                             </div>
                         </li>
                         <li data-scroll-reveal="enter right move 30px over 0.6s after 0.5s">
                             <img src="assets/images/about-icon-02.png" alt="">
                             <div class="text">
-                                <h4>Sed blandit quam in velit</h4>
-                                <p>You can add what you want here too</p>
+                                <h4>Mental Health Care Training</h4>
+                                <p>Well selected course handled by professionals with minmum of five years to give you a hand held guide through .</p>
                             </div>
                         </li>
                         <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
                             <img src="assets/images/about-icon-03.png" alt="">
                             <div class="text">
-                                <h4>Aenean faucibus venenatis</h4>
+                                <h4>Mandatory And First Aid Training</h4>
                                 <p>Phasellus in imperdiet felis, eget vestibulum nulla. Aliquam nec dui nec augue
                                     maximus porta. Curabitur tristique lacus.</p>
                             </div>

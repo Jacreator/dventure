@@ -453,11 +453,11 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                     <div class="right-content col-lg-6 col-md-12 col-sm-12">
                         <h2>Our Location</h2>
                         <p>
-                            <h6>Address: </h6> Wilson Park Monsall Road Newton Heat Manchester M40 8WN
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> Wilson Park Monsall Road Newton Heat Manchester M40 8WN
                             <hr>
-                            <h6>Phone Number:</h6> +44 7404 155651
+                            <i class="fa fa-phone" aria-hidden="true"></i> +44 7404 155651
                             <hr>
-                            <h6>Email:</h6> info@dialventures.co.uk
+                            <i class="fa fa-envelope" aria-hidden="true"></i> info@dialventures.co.uk
                             <hr>
                         </p>
                         <ul class="social">

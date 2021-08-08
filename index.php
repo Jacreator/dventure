@@ -87,7 +87,7 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                 <div class="row">
                     <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
                         data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                        <h3>Dial Ventures is all about <em>Security</em> and <em>Health</em></h3>
+                        <h1>Dial Ventures is all about <em>Security</em> and <em>Health</em></h1>
                         <p>Dial Ventures Limited is an International Training and Consultancy 
                             firm which prides itself on delivering quality and flexible
                              solutions to all forms of security training needs. </p> 

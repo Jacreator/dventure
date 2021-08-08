@@ -88,7 +88,9 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                     <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
                         data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                         <h1>Dventure is all about <em>Security</em> and <em>Health</em></h1>
-                        <p>about us will go here landing page more can still br writen here </p> 
+                        <p>Dial Ventures Limited is an International Training and Consultancy 
+                            firm which prides itself on delivering quality and flexible
+                             solutions to all forms of security training needs. </p> 
                         <a href="#appointment" class="main-button-slider">Book An Appointment</a>
                     </div>
                 </div>
@@ -336,7 +338,10 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                 <div class="col-lg-8 offset-lg-2">
                     <div class="center-heading">
                         <h2>Book An Appointment <em>With Us</em></h2>
-                        <p>Get to know more about us and have a one free consaultation with us... </p>
+                        <p>Get to know more about us and have a one free consaultation with us... 
+                            We offer consultancy services which can assist your company 
+                            to develop and meet the needs of the changing world. 
+                            We have vast experience in training </p>
                     </div>
                 </div>
                 <div class="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big"
@@ -379,7 +384,7 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                                     </div>
                                     <div class="col-lg-12">
                                         <fieldset>
-                                            <textarea name="message" rows="6" id="message" placeholder="brief description of the Application"
+                                            <textarea name="message" rows="3" id="message" placeholder="brief description of the appointment"
                                                 required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
                                         </fieldset>
                                     </div>

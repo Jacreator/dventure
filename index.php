@@ -23,7 +23,7 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
 
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
-    <link rel="stylesheet" href="assets/css/custom-style.css?v=1">
+    <link rel="stylesheet" href="assets/css/custom-style.css?v=2">
 
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 

@@ -32,50 +32,12 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
 <body>
 
     <!-- ***** Preloader Start ***** -->
-    <?php include('pageloader.php') ?>
+    <?php include('./pageloader.php') ?>
     <!-- ***** Preloader End ***** -->
 
 
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.php" class="logo">
-                            <!-- <img src="assets/images/kit32.png"> -->
-                            <span>DVenture</span>
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="#welcome" class="menu-item">Home</a></li>
-                            <li class="scroll-to-section"><a href="#about" class="menu-item">About</a></li>
-                            <li class="scroll-to-section"><a href="#testimonials" class="menu-item">Testimonials</a>
-                            </li>
-                            <!-- <li class="submenu">
-                                <a href="javascript:;">Drop Down</a>
-                                <ul>
-                                    <li><a href="" class="menu-item">About Us</a></li>
-                                    <li><a href="" class="menu-item">Features</a></li>
-                                    <li><a href="" class="menu-item">FAQ's</a></li>
-                                    <li><a href="" class="menu-item">Blog</a></li>
-                                </ul>
-                            </li> -->
-                            <li class="scroll-to-section"><a href="#contact-us" class="menu-item">Contact Us</a></li>
-                            <li class="pull-right scroll-to-section"><a href="#appointment">Book An Appointment</a></li>
-                            <li class="pull-right scroll-to-section"><a href="./gallery.php">Our Gallery</a></li>
-                        </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include("./header.php")?>
     <!-- ***** Header Area End ***** -->
 
 
@@ -395,93 +357,9 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
     <!-- ***** Project Ends ***** -->
 
 
-    <!-- ***** Footer Start ***** -->
-    <footer id="contact-us">
-        <div class="container">
-            <div class="footer-content">
-                <div class="row">
-                    <!-- ***** Contact Form Start ***** -->
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="contact-form">
-                            <?php if (isset($_GET['contactRes'])) : ?>
-                                <h3>Thank You <?php echo ucwords($_GET['contactRes']); ?><br></h3>
-                                <p>For Reaching us @Dventures.</p>
-                            <?php else : ?>
-                                <form id="contact" method="post">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-12">
-                                            <fieldset>
-                                                <input name="name" type="text" id="name" placeholder="Full Name" required="" style="background-color: rgba(250,250,250,0.3);">
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-md-6 col-sm-12">
-                                            <fieldset>
-                                                <input name="email" type="text" id="email" placeholder="E-Mail Address" required="" style="background-color: rgba(250,250,250,0.3);">
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <fieldset>
-                                                <textarea name="message" rows="6" id="message" placeholder="Your Message" required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <fieldset>
-                                                <button type="submit" id="form-submit" class="main-button" name="contact">Send Message Now</button>
-                                            </fieldset>
-                                        </div>
-                                    </div>
-                                </form>
-                            <?php endif ?>
-
-                        </div>
-                    </div>
-                    <!-- ***** Contact Form End ***** -->
-                    <div class="right-content col-lg-6 col-md-12 col-sm-12">
-                        <h2>Our Location</h2>
-                        <p>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i> Wilson Park Monsall Road Newton Heat Manchester M40 8WN
-                            <hr>
-                            <i class="fa fa-phone" aria-hidden="true"></i> +44 7404 155651
-                            <hr>
-                            <i class="fa fa-envelope" aria-hidden="true"></i> info@dialventures.co.uk
-                            <hr>
-                        </p>
-                        <ul class="social">
-                            <li><a href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="sub-footer">
-                        <p>Copyright &copy; <?php echo date("Y") ?>
-
-                            | Designed by <a rel="nofollow" href="https://www.linkedin.com/in/jacreator/">Jacreator</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
-
-    <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-    <!-- Plugins -->
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script>
-
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
+    <!-- ***** footer Start ***** -->
+    <?php include('./footer.php') ?>
+    <!-- ***** footer End ***** -->
 
 </body>
 

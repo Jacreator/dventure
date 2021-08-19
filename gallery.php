@@ -50,7 +50,7 @@
     <!-- ***** Preloader End ***** -->
 
     <!-- ****** Security Section start ***** -->
-    <section class="section" id="security">
+    <section class="section top-3" id="security">
         <div class="container">
             <div class="col-lg-8 offset-lg-2">
                 <div class="center-heading">

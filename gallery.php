@@ -3,6 +3,9 @@
 <!-- ***** head End ***** -->
 
 <body>
+    <!-- ***** Preloader Start ***** -->
+    <?php include('./includes/header.php') ?>
+    <!-- ***** Preloader End ***** -->
 
     <!-- ***** Preloader Start ***** -->
     <?php include('./includes/pageloader.php') ?>
@@ -11,6 +14,7 @@
     <!-- ***** Header Area Start ***** -->
     <?php include('./includes/footer.php') ?>
     <!-- ***** Header Area End ***** -->
+
 </body>
 
 </html>

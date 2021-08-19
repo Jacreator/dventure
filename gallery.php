@@ -1,15 +1,15 @@
 <!-- ***** head Start ***** -->
-<?php include('./head.php') ?>
+<?php include('./includes/head.php') ?>
 <!-- ***** head End ***** -->
 
 <body>
 
     <!-- ***** Preloader Start ***** -->
-    <?php include('./pageloader.php') ?>
+    <?php include('./includes/pageloader.php') ?>
     <!-- ***** Preloader End ***** -->
 
     <!-- ***** Header Area Start ***** -->
-    <?php include('./footer.php') ?>
+    <?php include('./includes/footer.php') ?>
     <!-- ***** Header Area End ***** -->
 </body>
 

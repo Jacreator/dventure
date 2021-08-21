@@ -1,9 +1,19 @@
+<?php
+include("path.php");
+include(ROOT_PATH . "/app/controllers/contact.php");
+?>
+
 <!-- ***** head Start ***** -->
 <?php include('./includes/head.php') ?>
 <!-- ***** head End ***** -->
 
 <body>
+
     <!-- ***** Preloader Start ***** -->
+    <?php include('./includes/pageloader.php') ?>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** header Start ***** -->
     <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
@@ -43,14 +53,12 @@
             </div>
         </div>
     </header>
-    <!-- ***** Preloader End ***** -->
+    <!-- ***** header End ***** -->
 
-    <!-- ***** Preloader Start ***** -->
-    <?php include('./includes/pageloader.php') ?>
-    <!-- ***** Preloader End ***** -->
+
 
     <!-- ****** Security Section start ***** -->
-    <section class="section " style="top: 30%;" id="security">
+    <section class="section " style="top: 30px;" id="security">
         <div class="container">
             <div class="col-lg-8 offset-lg-2">
                 <div class="center-heading">

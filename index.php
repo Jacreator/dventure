@@ -32,7 +32,7 @@ include ROOT_PATH . "/app/controllers/appointment.php";
                             firm which prides itself on delivering quality and flexible
                             solutions to all forms of security training needs. </p>
                         <a href="#appointment" class="main-button-slider">Book An Appointment</a>
-                        <a href="./gallery.php" class="main-button-slider">Our Gallery</a>
+                        <!-- <a href="./gallery.php" class="main-button-slider"></a> -->
                     </div>
                 </div>
             </div>

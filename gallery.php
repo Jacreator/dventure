@@ -296,7 +296,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
 
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                     <figure class="effect-ming tm-video-item">
-                        <img src="assets/images/health/care_6.jpeg" alt="Image" class="img-fluid">
+                        <img src="assets/images/health/care_9.jpeg" alt="Image" class="img-fluid">
                         <figcaption class="d-flex align-items-center justify-content-center">
                             <h2>Love</h2>
                         </figcaption>

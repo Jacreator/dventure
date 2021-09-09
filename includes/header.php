@@ -13,7 +13,7 @@
                     <ul class="nav">
                         <li class="scroll-to-section"><a href="#welcome" class="menu-item">Home</a></li>
                         <li class="scroll-to-section"><a href="#about" class="menu-item">About</a></li>
-                        <li class="scroll-to-section"><a href="#testimonials" class="menu-item">Testimonials</a>
+                        <!-- <li class="scroll-to-section"><a href="#testimonials" class="menu-item">Testimonials</a> -->
                         </li>
                         <!-- <li class="submenu">
                                 <a href="javascript:;">Drop Down</a>
@@ -26,7 +26,7 @@
                             </li> -->
                         <li class="scroll-to-section"><a href="#contact-us" class="menu-item">Contact Us</a></li>
                         <li class="pull-right scroll-to-section"><a href="#appointment">Book An Appointment</a></li>
-                        
+
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>

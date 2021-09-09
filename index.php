@@ -1,7 +1,7 @@
 <?php
 include("path.php");
-include(ROOT_PATH . "/app/controllers/contact.php");
-include(ROOT_PATH . "/app/controllers/appointment.php");
+include ROOT_PATH . "/app/controllers/contact.php";
+include ROOT_PATH . "/app/controllers/appointment.php";
 ?>
 
 <!-- ***** head Start ***** -->
@@ -55,7 +55,7 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                     <div class="features-item" style="background-color: #FEF0ED">
                         <div class="features-icon">
                             <h2>01</h2>
-                            <img src="assets/images/data_analytics.png" alt="">
+                            <img src="assets/images/serives.png" alt="">
                             <h4>Security Services</h4>
                             <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam,
                                 nec consectetur diam.</p>
@@ -83,7 +83,7 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
                     <div class="features-item" style="background-color: #FEF0ED">
                         <div class="features-icon">
                             <h2>03</h2>
-                            <img src="assets/images/mobile_application.png" alt="">
+                            <img src="assets/images/health_3.png" alt="">
                             <h4>Health Services</h4>
                             <p>Curabitur pulvinar vel odio sed sagittis.
                                 Nam maximus ex diam, nec consectetur diam.</p>
@@ -176,92 +176,7 @@ include(ROOT_PATH . "/app/controllers/appointment.php");
     <div class="right-image-decor"></div>
 
     <!-- ***** Testimonials Starts ***** -->
-    <section class="section" id="testimonials">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="center-heading">
-                        <h2>What They Think <em>About Us</em></h2>
-                        <p>We have Served and we sure Will keep serving...
-                            making sure we are current, accurate and trust worthy</p>
-                    </div>
-                </div>
-                <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Author One"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>Jonathan Smart</h4>
-                                <p>“Nullam hendrerit, elit a semper pharetra, ipsum nibh tristique tortor, in tempus
-                                    urna elit in mauris.”</p>
-                                <span>Besta CTO</span>
-                            </div>
-                        </div>
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Second Author"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>Martino Tino</h4>
-                                <p>“Morbi non mi luctus felis molestie scelerisque. In ac libero viverra, placerat est
-                                    interdum, rhoncus leo.”</p>
-                                <span>Web Analyst</span>
-                            </div>
-                        </div>
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Author Third"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>George Tasa</h4>
-                                <p>“Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
-                                    congue a fringilla sed, maximus et urna.”</p>
-                                <span>System Admin</span>
-                            </div>
-                        </div>
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Fourth Author"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>Sir James</h4>
-                                <p>"Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
-                                    congue a fringilla sed, maximus et urna."</p>
-                                <span>New Villager</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!-- ***** Testimonials Ends ***** -->
 
     <!-- ***** Project Starts ***** -->

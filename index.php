@@ -46,7 +46,7 @@ include ROOT_PATH . "/app/controllers/appointment.php";
         <div class="container">
             <div class="col-lg-8 offset-lg-2">
                 <div class="center-heading">
-                    <h2>What We Kown <em>About Us</em></h2>
+                    <h2>What We Know <em>About Us</em></h2>
                     <p>Here is our core valuse that drive us daily and help us to make sure we do and keep doing our best to keep clients and ourselfs safe at all times </p>
                 </div>
             </div>

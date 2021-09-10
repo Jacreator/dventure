@@ -24,7 +24,7 @@
                                 </ul>
                             </li> -->
                         <li class="scroll-to-section"><a href="#contact-us" class="menu-item">Contact Us</a></li>
-                        <li class="scroll-to-section"><a href="gallery.php" class="menu-item">Our Gallery</a></li>
+                        
                         <li class="pull-right scroll-to-section"><a href="#appointment">Book An Appointment</a></li>
 
                     </ul>

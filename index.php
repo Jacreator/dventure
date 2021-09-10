@@ -31,8 +31,8 @@ include ROOT_PATH . "/app/controllers/appointment.php";
                         <p>Dial Ventures Limited is an International Training and Consultancy
                             firm which prides itself on delivering quality and flexible
                             solutions to all forms of security training needs. </p>
-                        <a href="#appointment" class="main-button-slider">Book An Appointment</a>
-                        <!-- <a href="./gallery.php" class="main-button-slider"></a> -->
+                        <a href="#appointment" class="main-button-slider">Book An Appointment</a><br><br><br>
+                        <a href="./gallery.php" class="main-button-slider">Our Gallery</a>
                     </div>
                 </div>
             </div>

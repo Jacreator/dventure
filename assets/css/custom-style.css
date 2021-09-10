@@ -233,6 +233,7 @@ a.main-button-slider {
 
 a.main-button-slider:hover {
   background-color: #f1556a;
+  color: #fff;
 }
 
 a.main-button {
@@ -252,6 +253,7 @@ a.main-button {
 
 a.main-button:hover {
   background-color: #f1556a;
+  color: #fff;
 }
 
 button.main-button {
@@ -274,6 +276,7 @@ button.main-button {
 
 button.main-button:hover {
   background-color: #f1556a;
+  color: #fff;
 }
 
 

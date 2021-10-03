@@ -28,6 +28,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#security" class="menu-item">Security</a></li>
+                            <li class="scroll-to-section"><a href="#items" class="menu-item">Security Items</a></li>
                             <li class="scroll-to-section"><a href="#health" class="menu-item">Health Care</a></li>
                         </ul>
                         <a class='menu-trigger'>

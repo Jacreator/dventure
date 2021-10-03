@@ -945,21 +945,10 @@ promotion
 
 /*
 --------------------------------------------
-health
+balanced Top
 --------------------------------------------
 */
-#health {
-  padding-top: 100px;
-  position: relative;
-  z-index: 5;
-}
-
-/*
---------------------------------------------
-security
---------------------------------------------
-*/
-#security {
+.balacedTop {
   padding-top: 100px;
   position: relative;
   z-index: 5;

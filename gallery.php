@@ -44,7 +44,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
 
 
     <!-- ****** Security Section start ***** -->
-    <section class="section" id="security">
+    <section class="section balacedTop" id="security">
         <div class="container-fluid tm-container-content tm-mt-60">
             <div class="col-lg-8 offset-lg-2">
                 <div class="center-heading">
@@ -235,8 +235,206 @@ include ROOT_PATH . "/app/controllers/contact.php";
     </section>
     <!-- ***** Security section end -->
 
+    <!-- ****** Security items Section start *****  -->
+    <section class="section balacedTop" id="items">
+        <div class="container-fluid tm-container-content">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="center-heading">
+                    <h2>Security <em>Items</em></h2>
+                    <p>we provide, install and also teach how to use these devices</p>
+                </div>
+            </div>
+            <div class="row tm-gallery">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/bug_01.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Bug</h2>
+                            <!-- <span>14 Oct 2020</span>
+                        <span>16,100 views</span> -->
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/button.png" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Small Camera</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                        <!-- <span>14 Oct 2020</span>
+                        <span>16,100 views</span> -->
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/complete_01.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Overall Outfit</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                        <!-- <span>12 Oct 2020</span>
+                        <span>12,460 views</span> -->
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/flag_01.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Reflectors</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                        <!-- <span>10 Oct 2020</span>
+                        <span>11,402 views</span> -->
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/jacket_01.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Jacket</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                        <!-- <span>24 Sep 2020</span>
+                        <span>16,008 views</span> -->
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/jacket_02.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Jacket</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                        <!-- <span>20 Sep 2020</span>
+                        <span>12,860 views</span> -->
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/jacket_03.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Jacket</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/jacket_04.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Jacket</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/jacket_05.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Jacket</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/jacket_06.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Jacket</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/key_01.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Keys</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/lites_01.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Warm Light</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/lites_02.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Wireless Light</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/lites_03.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Parameter Light</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/lites_04.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Motion Light</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/pen_01.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Smart Pen</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                    <figure class="effect-ming tm-video-item">
+                        <img src="assets/images/items/pen_02.jpg" alt="Image" class="img-fluid">
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>Camera Pen</h2>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ****** Security items Section end *****  -->
+
     <!-- ****** Security Section start ***** -->
-    <section class="section" id="health">
+    <section class="section balacedTop" id="health">
         <div class="container-fluid tm-container-content">
             <div class="col-lg-8 offset-lg-2">
                 <div class="center-heading">

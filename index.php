@@ -46,8 +46,11 @@ include ROOT_PATH . "/app/controllers/appointment.php";
         <div class="container">
             <div class="col-lg-8 offset-lg-2">
                 <div class="center-heading">
-                    <h2>What We Know <em>About Us</em></h2>
-                    <p>Here is our core valuse that drive us daily and help us to make sure we do and keep doing our best to keep clients and ourselfs safe at all times </p>
+                    <h2>What We Kown <em>About Us</em></h2>
+                    <p>
+                        We offer consultancy services which can assist your company to develop and meet the needs of the changing world.
+                        We have vast experience in training in the following fields:
+                    </p>
                 </div>
             </div>
             <div class="row">
@@ -57,8 +60,10 @@ include ROOT_PATH . "/app/controllers/appointment.php";
                             <h2>01</h2>
                             <img src="assets/images/serives.png" alt="">
                             <h4>Security Services</h4>
-                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam,
-                                nec consectetur diam.</p>
+                            <p>Close protection and tactical driving, Counter terrorism awareness,
+                                Delivery of Tactical Combat Care, Customer Service and Employment Ability,
+                                Behavior Awareness and Delivery of Weapons Awareness
+                            </p>
                             <!-- <a href="#testimonials" class="main-button">
                                 Read More
                             </a> -->
@@ -71,8 +76,10 @@ include ROOT_PATH . "/app/controllers/appointment.php";
                             <h2>02</h2>
                             <img src="assets/images/web_developer.png" alt="">
                             <h4>Security Training</h4>
-                            <p>Curabitur pulvinar vel odio sed sagittis.
-                                Nam maximus ex diam, nec consectetur diam.</p>
+                            <p>Teacher training, Delivery of close quarter combat training,
+                                Anti kidnap training, Active Shooter Training, CCTV operator training,
+                                Situational Awareness training, and Delivery of Door supervisor training
+                            </p>
                             <!-- <a href="#testimonials" class="main-button">
                                 Discover More
                             </a> -->
@@ -159,7 +166,7 @@ include ROOT_PATH . "/app/controllers/appointment.php";
                         <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
                             <img src="assets/images/about-icon-03.png" alt="">
                             <div class="text">
-                                <h4>Mandatory First Aid Training</h4>
+                                <h4>Mandatory & First Aid Training</h4>
                                 <p>We sure will show you how to safe your love once in times of trouble
                                     and periods where the unwanted happens. so we can do your part before
                                     help arrives

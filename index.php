@@ -92,8 +92,11 @@ include ROOT_PATH . "/app/controllers/appointment.php";
                             <h2>03</h2>
                             <img src="assets/images/health_3.png" alt="">
                             <h4>Health Services</h4>
-                            <p>Curabitur pulvinar vel odio sed sagittis.
-                                Nam maximus ex diam, nec consectetur diam.</p>
+                            <p>
+                                Mandatory Training for Agency Staff, Paediatric First Aid,
+                                Safe Handling of Medication/Medication Awareness,
+                                Health and Safety at Work, Fire Safety & Fire Marshal, and Nutrition Fluids & Hygiene
+                            </p>
                             <!-- <a href="#testimonials" class="main-button">
                                 More Detail
                             </a> -->

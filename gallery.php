@@ -42,15 +42,13 @@ include ROOT_PATH . "/app/controllers/contact.php";
     </header>
     <!-- ***** header End ***** -->
 
-
-
     <!-- ****** Security Section start ***** -->
     <section class="section balacedTop" id="security">
         <div class="container-fluid tm-container-content tm-mt-60">
             <div class="col-lg-8 offset-lg-2">
                 <div class="center-heading">
                     <h2><em>Security</em> Images</h2>
-                    <p>Here are some of our recent pictures from different adventure and activities.</p>
+                    <!-- <p>Here are some of our recent pictures from different adventure and activities.</p> -->
                 </div>
             </div>
             <div class="row tm-gallery">
@@ -62,7 +60,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>10 Apr 2021</span>
+                        <!-- <span>10 Apr 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -73,7 +71,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>14 Aug 2021</span>
+                        <!-- <span>14 Aug 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -84,7 +82,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>1 Aug 2021</span>
+                        <!-- <span>1 Aug 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -95,7 +93,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>1 Aug 2021</span>
+                        <!-- <span>1 Aug 2021</span> -->
                     </div>
                 </div>
 
@@ -107,7 +105,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>7 Aug 2021</span>
+                        <!-- <span>7 Aug 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -118,7 +116,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>20 Jul 2021</span>
+                        <!-- <span>20 Jul 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -129,7 +127,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>6 Jul 2021</span>
+                        <!-- <span>6 Jul 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -140,7 +138,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>12 March 2021</span>
+                        <!-- <span>12 March 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -151,7 +149,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>4 Apr 2021</span>
+                        <!-- <span>4 Apr 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -162,7 +160,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>8 Jul 2021</span>
+                        <!-- <span>8 Jul 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -173,7 +171,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>7 Aug 2021</span>
+                        <!-- <span>7 Aug 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -184,7 +182,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>28 Aug 2021</span>
+                        <!-- <span>28 Aug 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -195,7 +193,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>22 Aug 2021</span>
+                        <!-- <span>22 Aug 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -206,7 +204,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>14 Jul 2021</span>
+                        <!-- <span>14 Jul 2021</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
@@ -217,7 +215,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>9 Aug 2020</span>
+                        <!-- <span>9 Aug 2020</span> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
@@ -228,7 +226,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span>3 Aug 2020</span>
+                        <!-- <span>3 Aug 2020</span> -->
                     </div>
                 </div>
             </div>
@@ -242,7 +240,7 @@ include ROOT_PATH . "/app/controllers/contact.php";
             <div class="col-lg-8 offset-lg-2">
                 <div class="center-heading">
                     <h2>Security <em>Items</em></h2>
-                    <p>we provide, install and also teach how to use these devices</p>
+                    <!-- <p>we provide, install and also teach how to use these devices</p> -->
                 </div>
             </div>
             <div class="row tm-gallery">

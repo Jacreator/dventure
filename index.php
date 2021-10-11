@@ -76,7 +76,7 @@ include ROOT_PATH . "/app/controllers/appointment.php";
                             <h2>02</h2>
                             <img src="assets/images/web_developer.png" alt="">
                             <h4>Security Training</h4>
-                            <p>Teacher training, Delivery of close quarter combat training,
+                            <p>Teacher training, Delivery of close protection training,
                                 Anti kidnap training, Active Shooter Training, CCTV operator training,
                                 Situational Awareness training, and Delivery of Door supervisor training
                             </p>
